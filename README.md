@@ -13,13 +13,16 @@ Features:
 Dynamic Configuration: Set hostname and IP addresses programmatically.
 Logging: Detailed logging of each step (INFO, ERROR) to vm_creation.log.
 User Interaction: Prompts for the starting series of IP addresses.
-Requirements:
+
+## Requirements:
 Python 3.x
 Paramiko (pip install paramiko)
 VirtualBox with VMs based on an OVA file
-Usage:
+
+## Usage:
 Modify script variables (base_ova_file, num_vms, etc.) as needed.
 Run the script and follow prompts for IP series.
+
 Feel free to contribute and enhance this script for your virtualization needs!
 
 # Steps for Configurtion
