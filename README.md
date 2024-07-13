@@ -24,14 +24,22 @@ Feel free to contribute and enhance this script for your virtualization needs!
 
 # Steps for Configurtion
 
-### create a basevm and export as ova file
- 
-### change your base_ip accoding to ur ip
+### Basevm must be host adopter network with static ip
+#### ~ using this only it set baseip
 
 ### u need to install ssh in ur base vm
+#### ~ install ssh server in base ip 
 
 ### check /etc/netplan ~ls to check what file name for network manager
+#### ~ check the /etc/netplan/ inside file name of network manger note file name and update the in script
+
+### create a basevm and export as ova file
+#### ~ ensure the base ip using cmd { ifconfig } and note it down
+
+### change your base_ip accoding to ur ip
+#### ~ change in script update ur base ip in script
 
 ### configure the script according to ur need
+#### ~ change the number series for ur wish default it set to { 10 } 
 
 @Any doubts ping me!
