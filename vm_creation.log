@@ -1,0 +1,96 @@
+2024-07-15 11:43:44,999 - INFO - Importing VM my_vm_1 from Basevm.ova
+2024-07-15 11:45:49,059 - INFO - Starting VM my_vm_1
+2024-07-15 11:45:55,495 - INFO - Waiting for VM my_vm_1 to start
+2024-07-15 11:48:02,320 - INFO - Configuring hostname thala for VM with IP 192.168.56.2
+2024-07-15 11:48:02,362 - INFO - Connected (version 2.0, client OpenSSH_8.2p1)
+2024-07-15 11:48:02,480 - INFO - Authentication (password) successful!
+2024-07-15 11:48:02,481 - INFO - Setting hostname thala on VM
+2024-07-15 11:48:07,222 - INFO - 
+2024-07-15 11:48:07,224 - ERROR - 
+2024-07-15 11:48:07,224 - INFO - Configuring IP address for my_vm_1
+2024-07-15 11:48:07,296 - INFO - Connected (version 2.0, client OpenSSH_8.2p1)
+2024-07-15 11:48:07,492 - INFO - Authentication (password) successful!
+2024-07-15 11:48:07,492 - INFO - Creating and uploading Netplan configuration on my_vm_1
+2024-07-15 11:48:09,206 - INFO - 
+    network:
+      version: 2
+      renderer: networkd
+      ethernets:
+        enp0s3:
+          dhcp4: no
+          addresses:
+            - 192.168.56.11/24
+          gateway4: 192.168.56.1
+          nameservers:
+            addresses:
+              - 8.8.8.8
+              - 8.8.4.4
+    
+
+2024-07-15 11:48:09,206 - ERROR - 
+2024-07-15 11:48:09,206 - INFO - Applying Netplan configuration on my_vm_1
+2024-07-15 11:48:09,279 - INFO - Started and configured hostname and IP address for VM my_vm_1 with hostname thala
+2024-07-15 11:48:09,279 - INFO - Importing VM my_vm_2 from Basevm.ova
+2024-07-15 11:49:53,339 - INFO - Starting VM my_vm_2
+2024-07-15 11:50:00,527 - INFO - Waiting for VM my_vm_2 to start
+2024-07-15 11:52:11,314 - INFO - Configuring hostname vijay for VM with IP 192.168.56.2
+2024-07-15 11:52:11,342 - INFO - Connected (version 2.0, client OpenSSH_8.2p1)
+2024-07-15 11:52:11,445 - INFO - Authentication (password) successful!
+2024-07-15 11:52:11,445 - INFO - Setting hostname vijay on VM
+2024-07-15 11:52:16,195 - INFO - 
+2024-07-15 11:52:16,195 - ERROR - 
+2024-07-15 11:52:16,196 - INFO - Configuring IP address for my_vm_2
+2024-07-15 11:52:16,282 - INFO - Connected (version 2.0, client OpenSSH_8.2p1)
+2024-07-15 11:52:16,552 - INFO - Authentication (password) successful!
+2024-07-15 11:52:16,553 - INFO - Creating and uploading Netplan configuration on my_vm_2
+2024-07-15 11:52:18,367 - INFO - 
+    network:
+      version: 2
+      renderer: networkd
+      ethernets:
+        enp0s3:
+          dhcp4: no
+          addresses:
+            - 192.168.56.12/24
+          gateway4: 192.168.56.1
+          nameservers:
+            addresses:
+              - 8.8.8.8
+              - 8.8.4.4
+    
+
+2024-07-15 11:52:18,368 - ERROR - 
+2024-07-15 11:52:18,368 - INFO - Applying Netplan configuration on my_vm_2
+2024-07-15 11:52:18,437 - INFO - Started and configured hostname and IP address for VM my_vm_2 with hostname vijay
+2024-07-15 11:52:18,438 - INFO - Importing VM my_vm_3 from Basevm.ova
+2024-07-15 11:55:34,647 - INFO - Starting VM my_vm_3
+2024-07-15 11:55:40,415 - INFO - Waiting for VM my_vm_3 to start
+2024-07-15 11:57:51,319 - INFO - Configuring hostname dhanush for VM with IP 192.168.56.2
+2024-07-15 11:57:51,348 - INFO - Connected (version 2.0, client OpenSSH_8.2p1)
+2024-07-15 11:57:51,447 - INFO - Authentication (password) successful!
+2024-07-15 11:57:51,447 - INFO - Setting hostname dhanush on VM
+2024-07-15 11:57:55,568 - INFO - 
+2024-07-15 11:57:55,568 - ERROR - 
+2024-07-15 11:57:55,568 - INFO - Configuring IP address for my_vm_3
+2024-07-15 11:57:55,687 - INFO - Connected (version 2.0, client OpenSSH_8.2p1)
+2024-07-15 11:57:55,837 - INFO - Authentication (password) successful!
+2024-07-15 11:57:55,837 - INFO - Creating and uploading Netplan configuration on my_vm_3
+2024-07-15 11:57:57,362 - INFO - 
+    network:
+      version: 2
+      renderer: networkd
+      ethernets:
+        enp0s3:
+          dhcp4: no
+          addresses:
+            - 192.168.56.13/24
+          gateway4: 192.168.56.1
+          nameservers:
+            addresses:
+              - 8.8.8.8
+              - 8.8.4.4
+    
+
+2024-07-15 11:57:57,362 - ERROR - 
+2024-07-15 11:57:57,363 - INFO - Applying Netplan configuration on my_vm_3
+2024-07-15 11:57:57,443 - INFO - Started and configured hostname and IP address for VM my_vm_3 with hostname dhanush
